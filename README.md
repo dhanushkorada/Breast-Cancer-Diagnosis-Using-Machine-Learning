@@ -17,6 +17,8 @@ Welcome to the Breast Cancer Diagnosis project. This project focuses on predicti
 Breast cancer is a common and potentially deadly disease, making early and accurate diagnosis crucial. This project aims to develop a machine learning model to classify breast cancer tumors as benign or malignant based on various features of cell nuclei obtained through fine needle aspiration. By identifying the key characteristics associated with malignant tumors, this model can assist healthcare professionals in making informed diagnostic decisions.
 
 ## Dataset Information
+
+The Dataset can be found [here](<https://www.kaggle.com/datasets/salihacur/breastcancerwisconsin>)
 The Breast Cancer Wisconsin (Original) Data Set includes the following attributes:
 
 1. Sample code number: id number
@@ -37,12 +39,19 @@ To run the project, you need to set up your environment and install the required
 
 1. Clone this repository:
 
-```git clone https://github.com/dhanushkorada/Breast-Cancer-Diagnosis-Using-Machine-Learning.git```
-```cd Breast-Cancer-Diagnosis-Using-Machine-Learning```
+```bash
+git clone https://github.com/dhanushkorada/Breast-Cancer-Diagnosis-Using-Machine-Learning.git
+```
+
+```bash
+cd Breast-Cancer-Diagnosis-Using-Machine-Learning
+```
 
 2. Install the required dependencies:
 
-```pip install -r requirements.txt```
+```bash
+pip install -r requirements.txt
+```
 
 ## Model Selection
 
