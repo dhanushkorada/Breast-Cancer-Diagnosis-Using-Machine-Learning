@@ -1,4 +1,5 @@
 # Breast-Cancer-Diagnosis-Using-Machine-Learning
+
 Welcome to the Breast Cancer Diagnosis project. This project focuses on predicting whether a breast cancer tumor is benign or malignant using machine learning techniques, utilizing the Breast Cancer Wisconsin (Original) Data Set from the UCI Machine Learning Repository.
 
 ## Table of Contents
@@ -18,8 +19,9 @@ Breast cancer is a common and potentially deadly disease, making early and accur
 
 ## Dataset Information
 
-The Dataset can be found [here](<https://www.kaggle.com/datasets/salihacur/breastcancerwisconsin>)
-The Breast Cancer Wisconsin (Original) Data Set includes the following attributes:
+The Breast Cancer Wisconsin (Original) Data Set can be found [here](<https://www.kaggle.com/datasets/salihacur/breastcancerwisconsin>)
+
+It includes the following attributes:
 
 1. Sample code number: id number
 2. Clump Thickness: 1 - 10
