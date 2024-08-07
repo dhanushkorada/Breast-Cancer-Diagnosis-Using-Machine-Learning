@@ -8,7 +8,6 @@ Welcome to the Breast Cancer Diagnosis project. This project focuses on predicti
 - [Dataset Information](#Dataset-Information)
 - [Setup and Required Installs](#setup-and-required-installs)
 - [Model Selection](#model-selection)
-- [Hyperparameter Tuning](#hyperparameter-tuning)
 - [Results](#results)
 - [Conclusion](#conclusion)
 - [License](#license)
@@ -67,17 +66,6 @@ Several classification models are tested to predict the malignant cancer cells:
 - Naive Bayes
 
 After evaluating the performance of various models using Accuracy Score the Decision Tree Classification model is chosen as the optimal model due to its higher accuracy in predictions.
-
-## Hyperparameter Tuning
-Hyperparameter tuning is performed using GridSearchCV to find the best parameters for the Decision Tree Classifier. The parameter grid includes:
-
-- Criterion: ['gini', 'entropy']
-- Splitter: ['best', 'random']
-- Max Depth: [None, 10, 20, 30, 40, 50]
-- Min Samples Split: [2, 5, 10]
-- Min Samples Leaf: [1, 2, 4]
-
-The best combination of parameters is selected based on cross-validation performance.
 
 ## Results
 The results of the Decision Tree Classification model are discussed with the help of performance metrics in the Jupyter Notebook provided in the repository. These metrics provide insights into how well the model is able to distinguish between benign and malignant tumors.
