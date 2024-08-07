@@ -37,12 +37,12 @@ To run the project, you need to set up your environment and install the required
 
 1. Clone this repository:
 
-git clone https://github.com/dhanushkorada/Breast-Cancer-Diagnosis-Using-Machine-Learning.git
-cd Breast-Cancer-Diagnosis-Using-Machine-Learning
+```git clone https://github.com/dhanushkorada/Breast-Cancer-Diagnosis-Using-Machine-Learning.git```
+```cd Breast-Cancer-Diagnosis-Using-Machine-Learning```
 
 2. Install the required dependencies:
 
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 ## Model Selection
 
